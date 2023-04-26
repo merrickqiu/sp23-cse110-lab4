@@ -23,4 +23,13 @@
     5. false + null => 0 since false and null both get converted to 0
     6. '3' + undefined => '3undefined' since undefined gets converted to a string
     7. '3' - undefined => NaN since 3 gets converted to an integer, and any arithmetic operator with undefined results in NaN
-14.    
+14. Here are the results
+    1. '2' > 1 => true since 1 gets converted to a string and '2' has a higher lexigraphical order
+    2. '2' < '12' => false since '2' has a higher lexigraphical order than '12'
+    3. 2 == '2' => true since type coercion can occur to make 2 and '2' equal
+    4. 2 === '2' => false since 2 is not strictly equal to '2'
+    5. true == 2 => false since true is converted to 1
+    6. true === Boolean(2) => true since Boolean(2) is true
+15. == is a loose equlity operator that allows type conversions while === is strict and does not allow type converstions
+16. See part2-question16.js
+17. 
