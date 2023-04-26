@@ -8,7 +8,7 @@ let statistics = {
 };
 
 for (let prop in statistics) {
-  if (prop.charAt(0) === 'r' || statistcs[prop] % 2 === 1) {
+  if (prop.charAt(0) === 'r' || statistics[prop] % 2 === 1) {
     console.log(statistics[prop]);
   }
 }
