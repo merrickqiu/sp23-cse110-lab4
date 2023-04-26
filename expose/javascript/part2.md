@@ -32,4 +32,5 @@
     6. true === Boolean(2) => true since Boolean(2) is true
 15. == is a loose equlity operator that allows type conversions while === is strict and does not allow type converstions
 16. See part2-question16.js
-17. 
+17. modifyArray() will return [2,4,6]. modifyArray applies doSomething to each element in array and pushes it into newArr and returns it. This will double all the elements in [1,2,3].
+18. See part2-question18.js
