@@ -34,3 +34,4 @@
 16. See part2-question16.js
 17. modifyArray() will return [2,4,6]. modifyArray applies doSomething to each element in array and pushes it into newArr and returns it. This will double all the elements in [1,2,3].
 18. See part2-question18.js
+19. It printed 1,4,3,2. The delay of 0 ms and 1000 ms make it so that 3 is printed after 4 and 2 is printed after 3.
